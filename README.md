@@ -18,8 +18,7 @@ In this project two operating systems and storage/volumes gets created within co
 
 
 1. Installing Docker:
-# dnf install docker-ce --nobest
-
+``` [root@localhost mycompose] # dnf install docker-ce --nobest ```
 2. Start Docker:
 # systemctl start docker
 
