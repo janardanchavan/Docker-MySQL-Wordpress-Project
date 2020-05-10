@@ -1,5 +1,5 @@
-1. Select the  language<br/>
-.[](./DockerProject1.png)
+1. Select the  language<br/><br/>
+![](DockerProject_1.png)<br/><br/>
 2. Enter new account details and password
 3. Login with your new credentials
 4. Once account is created it will take you to the Wordpress Dashboard page from where you can create your own Blog or any new website.
