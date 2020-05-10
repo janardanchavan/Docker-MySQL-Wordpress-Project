@@ -1,0 +1,34 @@
+```
+version: '3'
+
+services:
+    dbos:		# Note that this is your database host name
+        image: mysql:5.7
+        volumes:
+            - mysql_storage_new:/var/lib/mysql
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: <<your root user password>>
+            MYSQL_USER: <<your user name>>
+            MYSQL_PASSWORD: <<your database password>>
+            MYSQL_DATABASE: <<your database name>>
+
+    wordpressos:
+        image: wordpress:5.1.1-php7.3-apache
+        restart: always
+        depends_on:
+             - <<your database host name>>
+        ports:
+             - 8081:80
+        environment:
+            WORDPRESS_DB_HOST: <<your database host name>>
+            WORDPRESS_DB_USER: <<your database user  name>>
+            WORDPRESS_DB_PASSWORD: <<your database password>>
+            WORDPRESS_DB_NAME: <<your database name>>
+        volumes:
+            - wp_storage_new:/var/www/html
+
+volumes:
+    mysql_storage_new:
+    wp_storeage_new:
+```
