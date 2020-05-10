@@ -1,34 +1,7 @@
-```
-version: '3'
-
-services:
-    dbos:		# Note that this is your database host name
-        image: mysql:5.7
-        volumes:
-            - mysql_storage_new:/var/lib/mysql
-        restart: always
-        environment:
-            MYSQL_ROOT_PASSWORD: <<your root user password>>
-            MYSQL_USER: <<your user name>>
-            MYSQL_PASSWORD: <<your database password>>
-            MYSQL_DATABASE: <<your database name>>
-
-    wordpressos:
-        image: wordpress:5.1.1-php7.3-apache
-        restart: always
-        depends_on:
-             - <<your database host name>>
-        ports:
-             - 8081:80
-        environment:
-            WORDPRESS_DB_HOST: <<your database host name>>
-            WORDPRESS_DB_USER: <<your database user  name>>
-            WORDPRESS_DB_PASSWORD: <<your database password>>
-            WORDPRESS_DB_NAME: <<your database name>>
-        volumes:
-            - wp_storage_new:/var/www/html
-
-volumes:
-    mysql_storage_new:
-    wp_storeage_new:
-```
+1. Select the  language<br/>
+.[](./DockerProject1.png)
+2. Enter new account details and password
+3. Login with your new credentials
+4. Once account is created it will take you to the Wordpress Dashboard page from where you can create your own Blog or any new website.
+5. Click “Write your first blog post” button to create your first web page.
+6. Enter Header and blog contents.
