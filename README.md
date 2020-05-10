@@ -87,32 +87,36 @@ volumes:
     wp_storeage_new:
 ```
 
-###Start the docker-compose
+### Start the docker-compose
 ```
 # docker-compose up
 ```
 This will start the MySQL and Wordpres services.
 
 a. Take the ip address of your Redhat machine and go to your local machine, for me it's Windows machine and enter the following address in the internet browser: <br/>
+```
 http://<<your redhat ip address>>:8081
-
+```
 First time, this will open Wordpress to create your account. This is one time activity.
-i. Select the  language
-ii. Enter new account details and password
-iii. Login
-iv. with your new credentials
-Once account is created it will take you to the Wordpress Dashboard page from where you can create your own Blog or any new website.
 
-Click “Write your first blog post” button to create your first web page.
 
-Enter Header and blog contents.
+1. Select the  language
+2. Enter new account details and password
+3. Login with your new credentials
+4. Once account is created it will take you to the Wordpress Dashboard page from where you can create your own Blog or any new website.
+5. Click “Write your first blog post” button to create your first web page.
+6. Enter Header and blog contents.
 
 Next time whenever you will open the following link it will load your blog.
+```
 http://<<your redhat ip address>>:8081
-
-Stop the docker-compose
+```
+### Stop the docker-compose
+```
 # docker-compose stop
+```
 Also if you want to remove MySQL and Wordpress docker images and network defaults, you can enter follwing command:
+```
 # docker-compose down
-
+```
 Note that there will be no change in the data as we have stored it in the  external volumes.
