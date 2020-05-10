@@ -4,7 +4,7 @@ Hi All,
 
 Here is my first docker project developed after a docker training conducted by Mr. Vimal Daga.
 
-Usually bulding a web development environment is a long journey with Multi-tier environment. For example, creating a web server, database server, etc. Creating all these manually takes a long time. However, using docker technology we can create all this with a matter of seconds.
+Usually bulding a web development environment is a long journey with Multi-tier environment. For example, creating a web server, database server, etc. Creating all these manually takes a long time. However, using docker technology we can create all this within a matter of seconds.
 
 Here I am sharing automated process to build the web development environment with WordPress, MySQL and Docker through Docker-Compose method on Linux Redhat os.
 
