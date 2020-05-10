@@ -101,17 +101,17 @@ First time, this will open Wordpress to create your account. This is one time ac
 
 
 1. Select the  language<br/><br/>
-![](DockerProject_1.png)<br/><br/>
+![](Images/DockerProject_1.png)<br/><br/>
 2. Enter new account details and password<br/><br/>
-![](DockerProject_2.png)<br/><br/>
+![](Images/DockerProject_2.png)<br/><br/>
 3. Login with your new credentials<br/><br/>
-![](DockerProject_3.png)<br/><br/>
+![](Images/DockerProject_3.png)<br/><br/>
 4. Once account is created it will take you to the Wordpress Dashboard page from where you can create your own Blog or any new website.<br/><br/>
-![](DockerProject_4.png)<br/><br/>
+![](Images/DockerProject_4.png)<br/><br/>
 5. Click “Write your first blog post” button to create your first web page.<br/><br/>
-![](DockerProject_5.png)<br/><br/>
+![](Images/DockerProject_5.png)<br/><br/>
 6. Enter Header and blog contents.<br/><br/>
-![](DockerProject_6.png)<br/><br/>
+![](Images/DockerProject_6.png)<br/><br/>
 
 Next time whenever you will open the following link it will load your blog.
 ```
