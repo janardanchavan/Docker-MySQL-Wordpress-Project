@@ -51,6 +51,7 @@ In this project two operating systems and storage/volumes gets created within co
 ```
 <br/>
 Write the below contents in the docker-compose.yml file:
+
 ```
 version: '3'
 
@@ -86,12 +87,13 @@ volumes:
     wp_storeage_new:
 ```
 
-Start the docker-compose
-  # docker-compose up
-
+###Start the docker-compose
+```
+# docker-compose up
+```
 This will start the MySQL and Wordpres services.
-a. Take the ip address of your Redhat machine, for exaple: 192.168.1.101
-Go to your local machine, for me it's Windows machine and enter the following command:
+
+a. Take the ip address of your Redhat machine and go to your local machine, for me it's Windows machine and enter the following address in the internet browser: <br/>
 http://<<your redhat ip address>>:8081
 
 First time, this will open Wordpress to create your account. This is one time activity.
