@@ -49,9 +49,12 @@ In this project two operating systems and storage/volumes gets created within co
 ```
 # vim docker-compose.yml
 ```
+
 <br/>
 Write the below contents in the docker-compose.yml file:
 <br/>
+
+
 ```
 version: '3'
 
@@ -86,9 +89,12 @@ volumes:
     mysql_storage_new:
     wp_storeage_new:
 ```
+
 <br/>
 ![docker-compose.yml](Images/docker-compose.yml.png)
 <br/>
+
+
 ### Start the docker-compose
 ```
 # docker-compose up
