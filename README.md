@@ -1,5 +1,4 @@
-# Docker-MySQL-Wordpress-Project
-Docker project with MySQL and WordPress
+# Docker project with MySQL and WordPress
 
 Hi All,
 
@@ -16,31 +15,41 @@ In this project two operating systems and storage/volumes gets created within co
 3. Storage or volume for MySQL
 4. Storage or volume for Wordpres
 
+<br/>
 
-1. Installing Docker:
-``` [root@localhost mycompose] # dnf install docker-ce --nobest ```
-2. Start Docker:
+### Installing Docker community edition:
+```
+# dnf install docker-ce --nobest 
+```
+### Starting Docker service:
+```
 # systemctl start docker
-
-3. Installing Docker-Compose:
+```
+### Installing Docker-Compose:
+```
 # curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 # chmod +x /usr/local/bin/docker-compose
-
-4. Download Wordpress and mysql images from hub.docker.com
+```
+### Download Wordpress and mysql images from hub.docker.com
+```
 # docker pull wordpress:5.1.1-php7.3-apache
 # docker pull mysql:5.7
-
-5. Create volumes
+```
+### Create volumes
+```
 # docker volume create mysql_storage_new
 # docker volume create wp_storage_new
-
-6. Create a new directory for our workplace, for example, mycompose:
+```
+### Create a new directory for our workplace, for example, mycompose:
+```
 # mkdir mycompose
-
-7. Inside mycompose directory create yml file named as 'docker-compose'.
+```
+### Inside mycompose directory, create yml file named as 'docker-compose.yml'.
+```
 # vim docker-compose.yml
-
+```
+<br/>
 Write the below contents in the docker-compose.yml file:
 ```
 version: '3'
