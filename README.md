@@ -91,7 +91,7 @@ volumes:
 ```
 
 <br/>
-![docker-compose.yml](Images/docker-compose.yml.png)
+![docker-compose.yml](Images/docker-compose.yml.png)<br/><br/>
 <br/>
 
 
