@@ -71,9 +71,9 @@ services:
         image: wordpress:5.1.1-php7.3-apache
         restart: always
         depends_on:
-<<your database host name>>
+             - <<your database host name>>
         ports:
-8081:80
+             - 8081:80
         environment:
             WORDPRESS_DB_HOST: <<your database host name>>
             WORDPRESS_DB_USER: <<your database user  name>>
