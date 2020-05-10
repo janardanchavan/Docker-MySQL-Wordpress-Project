@@ -2,7 +2,7 @@
 
 Hi All,
 
-Here is my first docker project developed after a docker training conducted by Mr. Vimal Daga.
+Here I am sharing my docker project developed after attending a docker training conducted by Mr. Vimal Daga.
 
 Usually bulding a web development environment is a long journey with Multi-tier environment. For example, creating a web server, database server, etc. Creating all these manually takes a long time. However, using docker technology we can create all this within a matter of seconds.
 
